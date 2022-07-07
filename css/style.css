@@ -1,0 +1,200 @@
+body{
+	background:hsl(216, 12%, 8%)
+}
+
+
+.rating-card-box{
+	width: 370px;
+	height: 380px;
+	background-color:hsl(213, 19%, 18%) ;
+	border-radius: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	flex-direction: column;
+}
+
+@media (max-width:375px) {
+	.rating-card-box{
+		width: 340px;
+		height: 360px;
+	}
+	
+	label{
+		margin-right:9px !important;
+
+	}
+	.rating-btn{
+		width: 280px !important;
+	}
+
+	.rating-card-p{
+		width: 300px !important;
+	}
+	
+}
+
+
+.start-icon{
+margin-left: 30px;
+margin-top: 30px;
+}
+
+.starticon-back{
+	background: hsl(216, 12%, 54%, .2);
+	border-radius: 15px;
+	padding: 8px;
+}
+
+
+.rating-card-h{
+	font-size: 25px;
+	margin-left:25px;
+	margin-top: 20px;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 700;
+	color: hsl(0, 0%, 100%);
+
+}
+
+.rating-card-p{
+	margin-left: 25px;
+	margin-top: 20px;
+	font-size: 15px;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 400;
+	color:  hsl(216, 12%, 54%);
+}
+
+.rating-card-number{
+	margin-left: 25px;
+	margin-top: 15px;
+	
+	}
+
+	input[type="radio"] {
+		display:none;
+	  }
+
+
+	  label {
+		padding: 15px 20px;
+		border-radius: 30px;
+		background: hsl(216, 12%, 54%, .2);
+		display: inline-block;
+		cursor: pointer;
+		color: hsl(216, 12%, 54%);
+		font-size: 15px;
+		font-family: 'Overpass', sans-serif;
+		margin-right: 15px;
+	}
+	  input[type="radio"]:checked + label {
+		background: hsl(25, 97%, 53%);
+		color: white;
+	  }
+
+.rating-card-button{
+	margin-top: 30px;
+	text-align: center;
+	
+}
+
+.rating-btn{
+	cursor: pointer;
+	background-color:hsl(25, 97%, 53%) ;
+	border: none;
+	border-radius: 20px;
+	width: 325px;
+	height: 40px;
+	font-family: 'Overpass',sans-serif ;
+	font-weight: 600;
+	letter-spacing: 3px;
+	color:hsl(0, 0%, 100%);
+}
+
+
+.rating-btn:hover{
+	background-color: hsl(0, 0%, 100%);
+	color:hsl(25, 97%, 53%) ;
+}
+
+.thanks-card-box{
+	width: 370px;
+	height: 380px;
+	background-color:hsl(213, 19%, 18%) ;
+	border-radius: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	flex-direction: column;
+	text-align: center;
+	display: none;
+}
+
+@media (max-width:375px) {
+	.thanks-card-box{
+		width: 330px;
+		height: 370px;
+	}
+
+	.thanks-card-p{
+		width: 300px !important;
+	}
+}
+
+.select-icon{
+margin-top: 40px;
+}
+
+.select-is{
+	
+
+}
+
+
+.ratenum{
+font-family: 'Overpass', sans-serif;
+	color:hsl(25, 97%, 53%, 0.9) ;
+width: 180px;
+margin:25px auto;
+align-items: center;
+padding:5px ;
+border-radius: 15px;
+background-color: hsl(216, 12%, 54%, 0.3);
+align-items: center;
+}
+
+#rate1, #rate2, #rate3, #rate4, #rate5 ,#no-rate {
+	display:none;
+}
+
+
+
+.thanks-card-h{
+	margin-top: 25px;
+	font-size: 25px;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 700;
+	color: hsl(0, 0%, 100%);
+
+}
+.thanks-card-p{
+	width: 340px;
+	margin-left: 15px;
+	margin-top: 10px;
+	font-size: 15px;
+	font-family: 'Overpass', sans-serif;
+	font-weight: 400;
+	color:  hsl(216, 12%, 54%);
+}
+
+
+
+
+
+
+/* responisive mobile */
+
+
